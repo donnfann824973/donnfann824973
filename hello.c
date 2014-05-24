@@ -1,9 +1,12 @@
-#include <iostearm>
-using namespace std;
+
+#include "stdio.h"
 
 int main()
-{
-	cout << "HelloWorld" << endl;
 
-	reture 0;
+{
+	int y;
+	for (y = 1; y < 11; y++){
+		printf("HelloWorld\n");
+	}
+	return 0;
 }
